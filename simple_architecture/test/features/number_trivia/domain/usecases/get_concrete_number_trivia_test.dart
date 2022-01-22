@@ -13,7 +13,7 @@ void main() {
   late GetConcreteNumberTrivia usecase;
   setUp(() {
     mockNumberTriviaRepository = MockNumberTriviaRepository();
-    usecase = GetConcreteNumberTrivia(mockNumberTriviaRepository!);
+    usecase = GetConcreteNumberTrivia(mockNumberTriviaRepository);
   });
 
   const tNumber = 1;
