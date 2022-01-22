@@ -27,6 +27,12 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  # check if two objects are equal by the value not the addresses
+  equatable: ^2.0.0
+  # functional programming -> Either for network error handling
+  dartz: ^0.10.1
+  # mock test dart
+  mockito: ^5.0.17
   flutter:
     sdk: flutter
 
